@@ -6,8 +6,6 @@ The player can request additional cards (hit=1) until they decide to stop (stick
 This environment corresponds to the version of the blackjack problem described in Example 5.1 in Reinforcement Learning: 
 An Introduction by Sutton and Barto (1998) and discussed in greater detail by Phil on his Youtube Channel "Machine Learning with Phil".
 """
-
-
 import gym
 from gym import spaces
 from gym.utils import seeding
