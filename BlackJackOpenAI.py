@@ -1,3 +1,13 @@
+""" Description: Using the OpenAI environment to simulate the outcomes of a conventional BlackJack card-game. 
+The goal is to obtain cards that sum to as near as possible to 21 without going over. Participants play against a fixed dealer.
+Face cards (Jack, Queen, King) have a numeric value of 10. Aces can either count as 11 or 1, referred to as 'usable' at 11. 
+This game is placed with an infinite deck (or with replacement). The game starts with each (player and dealer) having one face up and one face down card. 
+The player can request additional cards (hit=1) until they decide to stop (stick=0) or exceed 21 (bust). 
+This environment corresponds to the version of the blackjack problem described in Example 5.1 in Reinforcement Learning: 
+An Introduction by Sutton and Barto (1998) and discussed in greater detail by Phil on his Youtube Channel "Machine Learning with Phil".
+"""
+
+
 import gym
 from gym import spaces
 from gym.utils import seeding
